@@ -1,0 +1,1348 @@
+﻿.main { width:80%; margin: auto; overflow: hidden; }
+.main1 { width: 1010px; margin: auto; overflow: hidden; }
+.none { display: none; }
+.kong { height: 58px; background: #ccc; width: 100%; overflow: hidden; }
+.page { position: relative; }
+.page_con { left: 50%; top: 50%; position: absolute; transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); }
+.clearfix {
+*zoom:1;  }
+.clearfix:after { display: block; overflow: hidden; clear: both; height: 0px; visibility: hidden; content: "."; }
+.page1 { background: #fe6055; }
+.page3 { background: #fff; }
+.page5 { background: #f2f2f2; }
+.page7 { background: #333; }
+.block { float: left; width: 100%; position: relative; overflow: hidden; }
+.block1 #homeslider img.fullpic { float: left; width: 100%; height: 100%; position: relative; z-index: 1; }
+.block1 #homeslider img.protext { position: absolute; left: 0px; bottom: 0px; width: 100%; z-index: 2; }
+.block1 #homeslider .sider-warpper { position: relative; height: 100%; overflow: hidden; }
+.block1 #homeslider .sider-warpper .ppt1_1 { position: absolute; left: 30%; top: 20%; z-index: 5; width: 50%; max-width: 816px !important; }
+.block1 #homeslider .sider-warpper .ppt1_2 { position: absolute; left: 20%; top: 41%; z-index: 5; width: 12%; max-width: 175px !important; }
+.block1 #homeslider .sider-warpper .ppt1_3 { position: absolute; left: 30%; top: 41%; z-index: 5; width: 12%; max-width: 175px !important; }
+.block1 #homeslider .sider-warpper .ppt1_4 { position: absolute; left: 40%; top: 41%; z-index: 5; width: 12%; max-width: 175px !important; }
+.block1 #homeslider .sider-warpper .ppt1_5 { position: absolute; left: 50%; top: 41%; z-index: 5; width: 12%; max-width: 175px !important; }
+.block1 #homeslider .sider-warpper .ppt1_6 { position: absolute; left: 60%; top: 41%; z-index: 5; width: 12%; max-width: 175px !important; }
+/*.block1 #homeslider .sider-warpper .ppt2_1 { position: absolute; left: 67%; top: 38%; z-index: 5; width: 25%; max-width: 303px !important; }
+.block1 #homeslider .sider-warpper .ppt2_2 { position: absolute; left: 67%; width: 45%; max-width: 669px !important; top: 45%; z-index: 5; }*/
+.block1 #homeslider .sider-warpper .ppt3_1 { position: absolute; left: 15%; width: 50%; max-width: 827px !important; top: 3%; z-index: 5; }
+.block1 #homeslider .sider-warpper .ppt3_2 { position: absolute; bottom: 0%; height: 50%; max-height: 474px !important; left: 21%; z-index: 5; }
+.block1 #homeslider .sider-warpper .ppt3_3 { position: absolute; right: 15%; width: 40%; max-width: 702px !important; top: 45%; z-index: 5; }
+.block1 #homeslider .sider-warpper .ppt4_1 { position: absolute; left: 39%; width: 20%; max-width: 416px !important; top: 12%; z-index: 5; }
+.block1 #homeslider .sider-warpper .ppt4_2 { position: absolute; bottom: 0%; width: 45%; max-width: 895px !important; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); z-index: 5; }
+.block1 #homeslider .sider-warpper .ppt4_3 { position: absolute; right: 30%; width: 7%; max-width: 120px !important; top: 60%; z-index: 5; }
+.block1 #homeslider .sider-warpper .ppt4_4 { position: absolute; left: 5%; width: 90%; max-width: 1100px !important; top: 5%; z-index: 5; }
+.block1 #homeslider .sider-warpper .ppt4_5 { position: absolute; right: 25%; width: 7%; max-width: 176px !important; top: 30%; z-index: 5; }
+.block1 #homeslider .sider-warpper .ppt5_1{position:absolute; width:18%; max-width:206px !important;top:30%;z-index:5;}
+.block1 #homeslider .sider-warpper .ppt5_2{position:absolute; width:30%; max-width:120px !important;top:25%; z-index:5;}
+.block1 #homeslider .sider-warpper .ppt5_3{position:absolute; width:28%; max-width:411px !important;top:46%; z-index:5;}
+/*.block1 #homeslider .sider-warpper .ppt5_4{position:absolute;height:300px; max-height:1920px !important;top:15%; z-index:5;opacity: 0.5}*/
+
+/*客服*/
+
+/*头部*/
+.head { position: fixed; z-index: 222; width: 100%; height: 60px; background: #F7F6F6; opacity: 0.98; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+IE6/IE7/8 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=70)";
+IE8 */ transition: all .3s ease-in-out;
+}
+.head img { float: left; }
+.head_div { width: 100%; height: 45px; background: #D8D4D4; display: none; position: absolute; left: 0; margin-top: 60px; opacity: 0.58; }
+.navigation { float: right; line-height: 60px; vertical-align: middle; text-align: center; }
+.navigation span { float: left; display: block; padding-left: 36px; text-align: center;  }
+.navigation p { color: #000; font-size: 16px; cursor: pointer; width: 77px; height: 60px; }
+.navigation span p:hover {  background-color:#2095ee; color:#fff;  }
+.cur{
+	background-color:#2095ee; color:#fff;
+}
+.navigation span .nav_ul { min-width: 300px; position: absolute; z-index: 1111; text-align: center; display: none; margin-left: -60px; }
+.nav_ul li { opacity: 0.9; height: 45px; float: left; line-height: 45px; }
+.nav_ul li a { width: 100px; height: 45px; vertical-align: middle; text-align: center; display: block; color: #000; font-size: 16px; }
+.nav_ul li:hover a { color: #999; text-decoration: none; }
+.nav_ul li:hover { }
+.navigation span .nav_ulx { min-width: 500px; position: absolute; z-index: 1111; text-align: center; display: none; *margin-left:-62px;
+margin-left: -610px; }
+.nav_ulx li { background: #79787a; height: 45px; float: left; line-height: 45px; }
+.nav_ulx li a { width: 125px; height: 45px; vertical-align: middle; text-align: center; display: block; color: #fff; font-size: 16px; }
+.nav_ulx li:hover a { color: #999; text-decoration: underline; }
+.nav_ulx li:hover { background: #79787a; }
+.banner_btn { margin-left: 300px; }
+.banner p { float: right; width: 165px; height: 60px; margin-left: -89px; margin-right: 140px; margin-top: 45%; font-size: 20px; color: #fff; line-height: 56px; vertical-align: middle; text-align: center; font-weight: bold;  }
+.banner p:hover { width: 165px; height: 60px; color: #646262;  }
+.bannerny { clear: both; }
+/*新闻播报*/
+.zhuye_new { width: 100%; margin: auto; text-align: center; margin-top: -2px; *margin-top:-4px;
+}
+.BreakingNewsController { margin-left: 240px; *margin-left:100px;
+overflow: hidden; position: relative; margin-top: 20px; }
+.BreakingNewsController .bn-title { display: inline-block; float: left; height: 40px; width: 35px; background: url(http://www.coracle.com/images/lb.jpg) no-repeat; overflow: hidden; }
+.BreakingNewsController ul { display: block; list-style: none; position: absolute; text-align: center; vertical-align: middle; }
+.BreakingNewsController ul li { list-style: none; display: none; margin-left: 20px; }
+.BreakingNewsController ul li a { padding-top: 5px; color: #333333; display: inline-block; overflow: hidden; font-size: 16px; }
+.zy_think { height: 100%; width: 100%; padding-top: 10px; overflow: hidden; text-align: center; }
+.zy_think ul .r { margin-right:
+}
+.zy_think ul { margin-top: 25px; padding-top: 10px; overflow: hidden; height: 445px; }
+.zy_think li { float: left; width: 321px; height: 380px; overflow: hidden; margin: 0 18px; border: 1px solid #d9d9d9; }
+.zy_think li img { margin-top: 15px; }
+.box h1 { margin: 5px 0px; }
+.box h1 a { font-size: 20px; color: #333333; font-weight: bold; }
+.box p a { font-size: 13px; color: #333333; line-height: 20px; }
+.zy_think li:hover a { color: #e32f2f; }/*what*/
+.zy_what {  text-align: center; width: 100%;padding-bottom: 60px;}
+.zy_what h1{   
+	 font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: "Microsoft YaHei";}
+
+.zy_what h5 { *margin-top:-4px;
+}
+.zy_what h6 { margin: 35px 0px 10px 0px; }
+.zy_what p { font-size: 14px; color: #9a9a9a; line-height: 18px; }
+.brand ul { padding-top: 30px; padding-bottom: 50px; overflow: hidden; }
+.brand ul .r { margin-right: 0px; }
+.brand li { width: 210px; float: left; margin-right: 30px; margin-left: 22px; margin-bottom: 30px; }
+.brand li:hover a { color: #F1CB03; }
+.brand li:hover h3 { border: 1px solid #F1CB03; }
+.brand h1 a { font-size: 20px; color: #333; font-weight: bold; }
+.brand h3 { width: 75px; height: 25px; vertical-align: middle; text-align: center; line-height: 25px; margin-left: 65px; *margin-left:10px;
+border: 1px solid #aeaeae; }
+.brand h3 a { font-size: 12px; color: #a4a4a4; display: block; }
+.brand p { padding: 10px 0; }
+.brand p a { font-size: 13px; color: #333; line-height: 20px; }
+.brand .pic { display: block; float: left; margin: 20px; width: 182px; height: 182px; text-align: center; position: relative; }
+.brand img { width: 182px; height: 182px; }
+.brand .info { display: none; background-color: #f0f0f0; color: #369242; }
+.brand .info1 { width: 182px; height: 182px; background-image: url(http://www.coracle.com/images/tu_11_h.jpg); }
+.brand .info2 { width: 182px; height: 182px; background-image: url(http://www.coracle.com/images/tu_22_h.jpg); }
+.brand .info3 { width: 182px; height: 182px; background-image: url(http://www.coracle.com/images/tu_33_h.jpg); }
+.brand .info4 { width: 182px; height: 182px; background-image: url(http://www.coracle.com/images/tu_44_h.jpg); }
+.zy_solution { height: 100%; text-align: center; width: 100%; margin-top: -1px; }
+.zy_solution h6 { margin: 25px 0px 10px 0px; }
+.zy_solution ul { padding: 20px 0px; overflow: hidden; margin-bottom: 30px; }
+.zy_solution ul .r { margin-right: 0px; }
+.zy_solution li { width: 340px; height: 131px; float: left; text-align: left; cursor: pointer; margin-right: 29px; margin-bottom: 25px; background: url(http://www.coracle.com/images/solu.png) no-repeat; }
+.zy_solution li:hover { background: url(http://www.coracle.com/images/solu_hover.png) no-repeat; }
+.zy_solution li:hover h5 { display: none; }
+.zy_solution li:hover h6 { display: block; }
+.zy_solution li h5 { float: left; height: 131px; display: block; margin-top: 35px; margin-left: 15px; }
+.zy_solution h1 { text-align: right; }
+.zy_solution li h6 { display: none; float: left; height: 131px; margin-left: 15px; margin-top: 35px; }
+.zy_solution_zi { margin-left: 25px; float: left; margin-top: 32px; *margin-top:20px;
+}
+.zy_solution h2 { padding: 5px 0px; }
+.zy_solution h2 a { font-size: 18px; color: #333; line-height: 20px; }
+.zy_solution h2 span { font-size: 12px; color: #555555; }
+.zy_solution p { width: 50px; height: 2px; background: #333333; *margin-top:10px;
+}
+.zy_solution li:hover .zy_solution_zi a { color: #fff; }
+.zy_solution li:hover span { color: #fff; }
+.zy_solution li:hover p { background: #fff; }
+.zy_customer { height: 100%; text-align: center; width: 100%; background: #f1f1f1; }
+.zy_customer h1 {  margin-bottom: 12px; margin-top: -10px; }
+.zy_customer h5 { margin-top: 0px; }
+.zy_customer_zi { width: 1080px; overflow: hidden;  position:relative; height:500px;}
+.zy_customer_zi  ul{position: absolute;left: 0;top:0;}
+.zy_customer h6 { padding: 35px 0px; }
+.zy_customer_zi .r { margin-right: 0px;}
+.zy_customer p { float: left; margin-right: 8px; margin-bottom: 12px; }
+.houver_tu { display: none; }
+.zy_new { height: 100%; width: 100%; text-align: center; margin-top: -2px; }
+.zy_new h5 { *margin-top:-2px;
+}
+.zy_new h6 { padding: 35px 0px; }
+.zy_new_sp{ float:left;}
+.zy_new_zi { width: 1080px; padding: 30px 0px; overflow: hidden; margin-bottom: 30px; }
+.zy_new_zi img { float: left; }
+.zy_new_zi video { float: left; }
+.zy_new_zi embed { float: left; }
+.zi_zi { width: 635px; float: left; margin-left: 55px; }
+.zi_zi p { background: url(http://www.coracle.com/images/dian_bj_32.jpg) repeat-x; background-position: 0px 7px; height: 30px; }
+.zi_zi p a { display: block; float: left; font-size: 12px; color: #333333; background: #fff; padding: 0px 15px; }
+.zi_zi span { float: right; font-size: 12px; color: #333333; background: #fff; padding: 0px 0px 0px 15px; }
+.zi_zi p:hover a { color: #FF0000; text-decoration: underline; }
+.zi_zi p:hover span { color: #FF0000; text-decoration: underline; }
+.zy_foot_banner { }
+.zy_foot_banner img { width: 100%; }
+.zy_foot_banner h5 { margin-top: -2px; *margin-top:-4px;
+}
+.bottom { height: 100%; position: relative; }
+.foot { width: 100%; padding-bottom: 40px; background: #333333; overflow: hidden; }
+.foot_index { width: 100%; position: absolute; bottom: 40px; left: 0; padding-top: 20px; padding-bottom: 40px; background: #333333; overflow: hidden; }
+.foot_nav { width: 1080px; margin: auto; height: 30px; border-bottom: 1px solid #555555; }
+.nav_foot { margin: 0px 100px; }
+.foot_nav p { float: left; padding: 0px 45px; overflow: hidden; }
+.foot_nav p:hover a { color: #e20000; }
+.foot_nav p a { font-size: 14px; color: #fff; }
+.foot_left { width: 400px; float: left; padding-top: 50px; margin-top: 40px; padding-bottom: 30px; margin-left: 150px; border-right: 1px solid #555555; }
+.foot_left h1 { float: left; font-size: 12px; color: #dddddd; text-align: center; margin-left: 35px; }
+.foot_left a { display: block; width: 90px; height: 90px; background: #fff; padding: 0px; margin-bottom: 8px; }
+.foot_right { width: 365px; float: left; overflow: hidden; margin-left: 50px; padding-top: 50px; }
+.foot_tel { width: 322px; height: 54px; background: url(http://www.coracle.com/images/foot_tel_39.png) no-repeat; padding-bottom: 10px; }
+.foot_tel p { color: #dddddd; font-size: 34px; padding-top: 25px; padding-left: 50px; font-family: Arial, Helvetica, sans-serif; }
+.foot_right h2 { font-size: 12px; color: #dddddd; line-height: 22px; }
+.foot_right a { font-size: 12px; color: #dddddd; line-height: 22px; }
+.foot_right a:hover { text-decoration: none; }
+.share { width: 480px; float: left; margin-top: 25px; }
+.share h6 { float: left; font-size: 12px; color: #757575; padding-right: 5px; padding-top: 5px; }
+.share li { float: left; }
+.share li a { width: 26px; height: 26px; display: block; cursor: pointer; }
+.wb { width: 26px; height: 26px; padding-right: 8px; background: url(http://www.coracle.com/images/wb.png) no-repeat; }
+.wb:hover { background: url(http://www.coracle.com/images/wb_hover.png) no-repeat; }
+.wx { width: 26px; height: 26px; padding-right: 8px; background: url(http://www.coracle.com/images/wx.png) no-repeat; }
+.wx:hover { background: url(http://www.coracle.com/images/wx_hover.png) no-repeat; }
+.gg { width: 26px; height: 26px; padding-right: 8px; background: url(http://www.coracle.com/images/g.png) no-repeat; }
+.gg:hover { background: url(http://www.coracle.com/images/g_hover.png) no-repeat; }
+.ff { width: 26px; height: 26px; padding-right: 8px; background: url(http://www.coracle.com/images/f.png) no-repeat; }
+.ff:hover { background: url(http://www.coracle.com/images/f_hover.png) no-repeat; }
+/*移动产品内页*/
+.yd_banner { height: 577px; background: url(http://www.coracle.com/images/yd_banner_02.jpg) no-repeat center; }
+.yd_banner1 { height: 577px; background: url(http://www.coracle.com/images/yd_banner_08.jpg) no-repeat center; }
+.trus { padding: 20px 0px; overflow: hidden; background: #f5f5f4; }
+.picture { width: 164px; height: 164px; position: relative; }
+.picture_h { width: 164px; height: 164px; position: absolute; margin-left: -164px; }
+.trus ul { margin: 20px 0px; overflow: hidden; }
+.trus li { float: left; width: 220px; padding: 15px; text-align: center; margin-right: 129px; }
+.trus .r { margin-right: 0px; }
+.trus h1 { font-size: 20px; color: #333333; margin: 12px 0px 8px 0px; }
+.trus p a { display: block; font-size: 12px; color: #333333; line-height: 21px; }
+.trus li:hover h1 { color: #F1CB03; }
+.trus li:hover a { color: #F1CB03; }
+.yd_what { padding: 20px 0px; overflow: hidden; background: url(http://www.coracle.com/images/bj_bj_26.jpg) repeat-x; }
+.what_ny { height: 400px; overflow: hidden; padding: 30px; }
+.what_ny h5 { float: left; margin-right: 25px; }
+.what_ny h2 { float: left; display: block; width: 280px; line-height: 28px; margin-top: 150px; margin-left: 80px; }
+.what_ny h2 span { float: left; font-size: 14px; color: #333333; }
+.what_ny h2 p { float: left; font-size: 14px; color: #de0000; }
+.what_ny h2 a { float: left; display: block; color: #de0000; font-size: 20px; }
+.yd_solu { padding: 20px 0px; overflow: hidden; background: url(http://www.coracle.com/images/bj_bj_26.jpg) repeat-x; }
+.yd_solu { overflow: hidden; padding: 30px; }
+.yd_solu p a { display: block; float: right; margin-right: 50px; font-size: 12px; color: #797877; }
+.yd_solu p:hover a { color: #222; }
+.yd_solu ul { margin: 45px 35px 0px 35px; overflow: hidden; }
+.yd_solu li { float: left; width: 390px; min-height: 90px; padding: 30px; background: #cccccc; margin-right: 30px; margin-bottom: 30px; }
+.yd_solu .r { margin-right: 0px; }
+.yd_solu li:hover { background: #fff; }
+.yd_solu li h5 { float: left; margin-right: 20px; }
+.solu_zi { overflow: hidden; }
+.solu_zi h1 { font-size: 20px; color: #333333; }
+.solu_zi a { text-align: left; display: block; font-family: Arial, Helvetica, sans-serif; color: #333333; text-transform: uppercase; }
+.solu_zi li:hover p { background: url(http://www.coracle.com/images/heng_h_03.jpg) no-repeat left; }
+.solu_zi p { float: left; margin-top: 5px; background: url(http://www.coracle.com/images/heng_03.jpg) no-repeat left; background-position: 0px 0px; }
+.solu_zi p a { color: #333; padding-top: 5px; font-size: 12px; display: block; float: left; }
+.sj_tu h5 img { width: 158px; height: 275px; margin-top: 55px; margin-left: 14px; }
+.jiantou { position: absolute; margin-top: 230px; margin-left: -110px; }
+.jiantou p { width: 68px; font-size: 12px; color: #e20000; cursor: pointer; background: url(http://www.coracle.com/images/jt_left.png) no-repeat; background-position: 55px 5px; border-bottom: 1px solid #e20000; }
+.jiantou2 { position: absolute; margin-top: 280px; margin-left: 215px; }
+.jiantou2 p { margin-left: 30px; width: 50px; font-size: 12px; color: #e20000; padding-left: 20px; background: url(http://www.coracle.com/images/jt_right.png) no-repeat; background-position: 0px 5px; border-bottom: 1px solid #e20000; }
+.jiantou4 { position: absolute; margin-top: 235px; margin-left: 225px; }
+.jiantou4 p { margin-top: 5px; width: 48px; font-size: 12px; color: #e20000; padding-left: 20px; background: url(http://www.coracle.com/images/jt_right.png) no-repeat; background-position: 0px 5px; border-bottom: 1px solid #e20000; }
+.jiantou5 { position: absolute; margin-top: 330px; margin-left: -110px; }
+.jiantou5 p { margin-top: -40px; width: 68px; font-size: 12px; color: #e20000; background: url(http://www.coracle.com/images/jt_left.png) no-repeat; background-position: 55px 5px; border-bottom: 1px solid #e20000; }
+.jiantou6 { position: absolute; margin-top: 225px; margin-left: -80px; }
+.jiantou6 p { margin-left: -20px; margin-top: 34px; width: 68px; font-size: 12px; color: #e20000; background: url(http://www.coracle.com/images/jt_left.png) no-repeat; background-position: 55px 5px; border-bottom: 1px solid #e20000; }
+.jiantou7 { position: absolute; margin-top: 305px; margin-left: 230px; }
+.jiantou7 p { width: 48px; font-size: 12px; color: #e20000; padding-left: 20px; background: url(http://www.coracle.com/images/jt_right.png) no-repeat; background-position: 0px 5px; border-bottom: 1px solid #e20000; }
+.jiantou8 { position: absolute; margin-top: 290px; margin-left: 225px; }
+.jiantou8 p { width: 48px; font-size: 12px; color: #e20000; padding-left: 20px; background: url(http://www.coracle.com/images/jt_right.png) no-repeat; background-position: 0px 5px; border-bottom: 1px solid #e20000; }
+.jiantou9 { position: absolute; margin-top: 310px; margin-left: -105px; }
+.jiantou9 p { margin-top: -21px; width: 68px; font-size: 12px; color: #e20000; background: url(http://www.coracle.com/images/jt_left.png) no-repeat; background-position: 55px 5px; border-bottom: 1px solid #e20000; }
+.jiantou11 { position: absolute; margin-top: 75px; margin-left: 205px; }
+.jiantou11 p { margin-top: 159px; width: 48px; font-size: 12px; color: #e20000; padding-left: 20px; background: url(http://www.coracle.com/images/jt_right.png) no-repeat; background-position: 0px 5px; border-bottom: 1px solid #e20000; }
+.jiantou12 { position: absolute; margin-top: 200px; margin-left: 210px; }
+.jiantou12 p { margin-top: 34px; width: 48px; font-size: 12px; color: #e20000; padding-left: 20px; background: url(http://www.coracle.com/images/jt_right.png) no-repeat; background-position: 0px 5px; border-bottom: 1px solid #e20000; }
+.jiantou13 { position: absolute; margin-top: 315px; margin-left: -185px; }
+.jiantou13 p { margin-top: -15px; width: 68px; font-size: 12px; color: #e20000; background: url(http://www.coracle.com/images/jt_left.png) no-repeat; background-position: 55px 5px; border-bottom: 1px solid #e20000; }
+.jiantou14 { position: absolute; margin-top: 320px; margin-left: -90px; }
+.jiantou14 p { margin-left: -93px; margin-top: -15px; width: 68px; font-size: 12px; color: #e20000; background: url(http://www.coracle.com/images/jt_left.png) no-repeat; background-position: 55px 5px; border-bottom: 1px solid #e20000; }
+.jiantou15 { position: absolute; margin-top: 285px; margin-left: 325px; }
+.jiantou15 p { width: 48px; font-size: 12px; color: #e20000; padding-left: 20px; background: url(http://www.coracle.com/images/jt_right.png) no-repeat; background-position: 0px 5px; border-bottom: 1px solid #e20000; }
+.jiantou16 { position: absolute; margin-top: 315px; margin-left: 200px; }
+.jiantou16 p { width: 48px; font-size: 12px; color: #e20000; padding-left: 20px; background: url(http://www.coracle.com/images/jt_right.png) no-repeat; background-position: 0px 5px; border-bottom: 1px solid #e20000; }
+.zy_bj1 { width: 100%; display: block; height: 593px; background: url(http://www.coracle.com/images/nj1.jpg) no-repeat center; }
+.sj1 { width: 184px; height: 384px; position: absolute; margin-top: 135px; margin-left: 250px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys1 { width: 180px; height: 384px; position: absolute; margin-top: 231px; margin-left: 55px; }
+.zy_nys1 h1 { margin-left: 75px; font-size: 45px; color: #656565; }
+.zy_nys1 h2 { margin-left: 90px; font-size: 20px; color: #656565; }
+.zy_nys1 p { margin-top: 5px; font-size: 13px; color: #333; }
+.sj2 { width: 184px; height: 384px; position: absolute; margin-top: 135px; margin-left: 840px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys2 { width: 180px; height: 384px; position: absolute; margin-top: 224px; margin-left: 660px; }
+.zy_nys2 h1 { font-size: 45px; color: #656565; }
+.zy_nys2 h2 { font-size: 20px; color: #656565; }
+.zy_nys2 p { margin-top: 5px; font-size: 13px; color: #333; }
+.zy_bj2 { width: 100%; display: block; height: 593px; background: url(http://www.coracle.com/images/nj2.jpg) no-repeat center; }
+.sj3 { width: 184px; height: 384px; position: absolute; margin-top: 105px; margin-left: 64px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.posi_img { width: 180px; height: 384px; position: absolute; margin-top: 410px; margin-left: 300px; }
+.zy_nys3 { width: 180px; height: 384px; position: absolute; margin-top: 239px; margin-left: 312px; }
+.zy_nys3 h1 { font-size: 45px; color: #656565; }
+.zy_nys3 h2 { font-size: 20px; color: #656565; }
+.zy_nys3 p { margin-top: 5px; font-size: 13px; color: #333; }
+.sj4 { width: 184px; height: 384px; position: absolute; margin-top: 105px; margin-left: 606px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys4 { width: 180px; height: 384px; position: absolute; margin-top: 260px; margin-left: 830px; }
+.zy_nys4 h2 { font-size: 20px; color: #656565; }
+.zy_nys4 p { margin-top: 5px; font-size: 13px; color: #333; }
+.zy_nys4 h1 { margin-top: -9%; font-size: 45px; color: #656565; }
+.zy_bj3 { width: 100%; display: block; height: 593px; background: url(http://www.coracle.com/images/nj3.jpg) no-repeat center; }
+.sj5 { width: 184px; height: 384px; position: absolute; margin-top: 110px; margin-left: 240px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys5 { width: 180px; height: 384px; position: absolute; margin-top: 260px; margin-left: 40px; }
+.zy_nys5 h1 { margin-left: 45px; font-size: 45px; color: #656565; }
+.zy_nys5 h2 { margin-left: 90px; font-size: 20px; color: #656565; }
+.zy_nys5 p { margin-top: 5px; font-size: 13px; color: #333; }
+.sj6 { width: 184px; height: 384px; position: absolute; margin-top: 110px; margin-left: 800px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys6 { width: 180px; height: 384px; position: absolute; margin-top: 260px; margin-left: 605px; }
+.zy_nys6 h2 { font-size: 45px; color: #656565; margin-left: 25px; }
+.zy_nys6 p { margin-top: 5px; font-size: 13px; color: #333; }
+.zy_bj4 { width: 100%; display: block; height: 593px; background: url(http://www.coracle.com/images/nj4.jpg) no-repeat center; }
+.sj7 { width: 184px; height: 384px; position: absolute; margin-top: 112px; margin-left: 56px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys7 { width: 180px; height: 384px; position: absolute; margin-top: 278px; margin-left: 288px; }
+.zy_nys7 h1 { font-size: 45px; color: #656565; }
+.zy_nys7 h2 { font-size: 20px; color: #656565; }
+.zy_nys7 p { margin-top: 5px; font-size: 13px; color: #333; }
+.sj8 { width: 184px; height: 384px; position: absolute; margin-top: 112px; margin-left: 595px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys8 { width: 205px; height: 384px; position: absolute; margin-top: 250px; margin-left: 820px; }
+.zy_nys8 h1 { font-size: 45px; color: #656565; }
+.zy_nys8 h2 { font-size: 20px; color: #656565; }
+.zy_nys8 p { margin-top: 5px; font-size: 13px; color: #333; }
+.zy_bj5 { width: 100%; display: block; height: 593px; margin-top: -1px; background: url(http://www.coracle.com/images/nj5.jpg) no-repeat center; }
+.sj9 { width: 184px; height: 384px; position: absolute; margin-top: 110px; margin-left: 235px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys9 { width: 180px; height: 384px; position: absolute; margin-top: 265px; margin-left: 40px; }
+.zy_nys9 h1 { margin-left: 80px; font-size: 45px; color: #656565; }
+.zy_nys9 h2 { margin-left: 90px; font-size: 20px; color: #656565; }
+.zy_nys9 p { margin-top: 5px; font-size: 13px; color: #333; }
+.sj10 { width: 184px; height: 384px; position: absolute; margin-top: 110px; margin-left: 795px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys10 { width: 180px; height: 384px; position: absolute; margin-top: 265px; margin-left: 620px; }
+.zy_nys10 h1 { margin-left: 45px; font-size: 45px; color: #656565; }
+.zy_nys10 h2 { font-size: 20px; color: #656565; }
+.zy_nys10 p { margin-top: 5px; font-size: 13px; color: #333; }
+.zy_bj6 { width: 100%; display: block; height: 593px; margin-top: -1px; background: url(http://www.coracle.com/images/nj6.jpg) no-repeat center; }
+.sj11 { width: 184px; height: 384px; position: absolute; margin-top: 140px; margin-left: 75px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys11 { width: 180px; height: 384px; position: absolute; margin-top: 265px; margin-left: 280px; }
+.zy_nys11 h1 { font-size: 58px; color: #656565; }
+.zy_nys11 h2 { font-size: 45px; color: #656565; }
+.zy_nys11 p { margin-top: 5px; font-size: 13px; color: #333; }
+.sj12 { width: 184px; height: 384px; position: absolute; margin-top: 140px; margin-left: 620px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys12 { width: 180px; height: 384px; position: absolute; margin-top: 265px; margin-left: 825px; }
+.zy_nys12 h1 { font-size: 58px; color: #656565; }
+.zy_nys12 h2 { font-size: 45px; color: #656565; }
+.zy_nys12 p { margin-top: 5px; font-size: 13px; color: #333; }
+.zy_bj7 { width: 100%; display: block; height: 593px; margin-top: -1px; background: url(http://www.coracle.com/images/nj7.jpg) no-repeat center; }
+.sj13 { width: 184px; height: 384px; position: absolute; margin-top: 135px; margin-left: 295px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys13 { width: 180px; height: 384px; position: absolute; margin-top: 300px; margin-left: 110px; }
+.zy_nys13 h1 { font-size: 45px; color: #656565; }
+.zy_nys13 h2 { font-size: 20px; color: #656565; }
+.zy_nys13 p { margin-top: 5px; font-size: 13px; color: #333; }
+.sj14 { width: 184px; height: 384px; position: absolute; margin-top: 135px; margin-left: 795px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys14 { width: 180px; height: 384px; position: absolute; margin-top: 300px; margin-left: 610px; }
+.zy_nys14 h1 { margin-top: 5px; font-size: 45px; color: #656565; }
+.zy_nys14 h2 { font-size: 20px; color: #656565; }
+.zy_nys14 p { margin-top: 5px; font-size: 13px; color: #333; }
+.zy_bj8 { width: 100%; display: block; height: 593px; margin-top: -1px; background: url(http://www.coracle.com/images/nj8.jpg) no-repeat center; }
+.sj15 { position: absolute; margin-top: 100px; }
+.zy_nys15 { width: 180px; height: 384px; position: absolute; margin-top: 265px; margin-left: 325px; }
+.zy_nys15 h1 { font-size: 45px; color: #656565; }
+.zy_nys15 h2 { font-size: 20px; color: #656565; }
+.zy_nys15 p { margin-top: 5px; font-size: 13px; color: #333; }
+.sj16 { width: 184px; height: 384px; position: absolute; margin-top: 75px; margin-left: 635px; background: url(http://www.coracle.com/images/sj.png) no-repeat; }
+.zy_nys16 { width: 180px; height: 384px; position: absolute; margin-top: 265px; margin-left: 835px; }
+.zy_nys16 h1 { margin-top: 5px; font-size: 45px; color: #656565; }
+.zy_nys16 h2 { font-size: 20px; color: #656565; }
+.zy_nys16 p { margin-top: 5px; font-size: 13px; color: #333; }
+.appmate { padding: 40px 0px; overflow: hidden; background: url(http://www.coracle.com/images/bj_bj_26.jpg) repeat-x; }
+.appmate_zi { float: left; width: 300px; margin-bottom: 20px; margin-right: 150px; margin-left: 100px; margin-top: 150px; overflow: hidden; }
+.appmate_zi h2 { width: 68px; padding-top: 70px; }
+.appmate_zi h2 a { width: 68px; display: block; font-size: 12px; color: #e20000; background: url(http://www.coracle.com/images/jt_left.png) no-repeat; background-position: 55px 5px; border-bottom: 1px solid #e20000; }
+.appmate_zi p { float: left; font-size: 12px; color: #333333; line-height: 25px; }
+.appmate_zi a {
+ *line-height:25px; display: block; float: left; font-size: 24px; color: #de0000; margin-top: -5px; }
+.appmate h5 { margin: 20px; }
+.ny_security { padding: 40px 0px; overflow: hidden; background: url(http://www.coracle.com/images/bj_bj_26.jpg) repeat-x; }
+.ny_security ul { margin: 35px 0px 0px 0px; overflow: hidden; }
+.ny_security li { text-align: center; width: 235px; height: 378px; overflow: hidden; float: left; margin-right: 150px; }
+.ny_security h5 img { width: 281; height: 378; }
+.ny_security h5 { position: absolute; }
+.ny_security_zi { overflow: hidden; min-height: 130px; position: relative; padding-top: 230px; }
+.ny_security_zi h1 { font-size: 20px; color: #333333; padding: 10px 0px 5px 0px; }
+.ny_security_zi p { font-size: 14px; color: #333333; line-height: 20px; }
+.ny_security .r { margin-right: 0px; }
+.yds_banner { height: 347px; background: url(http://www.coracle.com/images/yds_banner.jpg) no-repeat center; }
+.yds_gd { padding: 25px 0px; width: 100%; position: relative; background: #f0f0f0; }
+.gd_tu1 { display: block; height: 55px; padding-bottom: 5px; }
+.gd_tu2 { display: none; height: 55px; padding-bottom: 5px; }
+.sorllMenus li:hover .gd_tu1 { display: none; }
+.sorllMenus li:hover .gd_tu2 { display: block; }
+.pro_tu { width: 1020px; margin: auto; position: relative; }
+.btns { z-index: 11; }
+.btns .btn_ls { width: 17px; height: 36px; position: absolute; z-index: 2; left: 0; margin-top: 30px; background: url(http://www.coracle.com/images/left_btn.png) no-repeat; }
+.btns .btn_ls:hover { background: url(http://www.coracle.com/images/left_btn_h.png)no-repeat; }
+.btns .btn_rs { width: 17px; height: 36px; position: absolute; right: 0; z-index: 1; margin-top: 30px; background: url(http://www.coracle.com/images/right_btn.png) no-repeat; }
+.btns .btn_rs:hover { background: url(http://www.coracle.com/images/right_btn_h.png) no-repeat; }
+.sorllMenus { width: 965px; margin: auto; overflow: hidden; position: relative; }
+.sorllMenus li { overflow: hidden; float: left; width: 116px; padding-right: 5px; }
+.sorllMenus_d { width: 116px; text-align: center; padding: 10px 0px; overflow: hidden; -webkit-transition: all 0.5s ease-in-out 0s; }
+.sorllMenus ul .r { padding-right: 0px; }
+.sorllMenus h2 { text-align: center; vertical-align: middle; font-size: 14px; color: #333333; padding-bottom: 5px; -webkit-transition: all 0.5s ease-in-out 0s; }
+.sorllMenus li:hover h2 { color: #e30e0e; -webkit-transition: all 0.5s ease-in-out 0s; }
+.yds_second { padding: 25px; overflow: hidden; width: 100%; background: #ffffff; }
+.pros_tu { float: left; width: 340px; position: relative; }
+.btnx { z-index: 11; }
+.btnx .btn_lx { width: 17px; height: 36px; position: absolute; z-index: 2; left: 0; margin-top: 220px; background: url(http://www.coracle.com/images/left_btn.png) no-repeat; }
+.btnx .btn_lx:hover { background: url(http://www.coracle.com/images/left_btn_h.png)no-repeat; }
+.btnx .btn_rx { width: 17px; height: 36px; position: absolute; right: 0; z-index: 1; margin-top: 220px; background: url(http://www.coracle.com/images/right_btn.png) no-repeat; }
+.btnx .btn_rx:hover { background: url(http://www.coracle.com/images/right_btn_h.png) no-repeat; }
+.bj_shouji { width: 252px; height: 530px; position: absolute; z-index: 11; margin-left: 44px; *margin-left:0px;
+background: url(http://www.coracle.com/images/sj1_39.png) no-repeat; }
+.sorllMenux { width: 252px; height: 530px; margin: auto; overflow: hidden; position: relative; }
+.sorllMenux ul { margin-top: 75px; margin-left: 21px; }
+.sorllMenux li { overflow: hidden; float: left; width: 215px; }
+.sorllMenux_d { width: 215px; height: 380px; text-align: center; overflow: hidden; -webkit-transition: all 0.5s ease-in-out 0s; }
+.yds_zi { width: 500px; float: left; margin-left: 80px; margin-top: 80px; }
+.yds_zi h1 { font-size: 26px; color: #e30e0e; padding-bottom: 10px; }
+.yds_zi p { font-size: 12px; color: #6a6a6a; line-height: 22px; }
+.yds_xtu { margin: 30px 0px; overflow: hidden; }
+.yds_xtu a span { width: 50px; height: 50px; display: inline-block; }
+.yds_xtu a .xtu1 { background: url(http://www.coracle.com/images/c_1.jpg) no-repeat; }
+.yds_xtu a .xtu2 { background: url(http://www.coracle.com/images/c_2.jpg) no-repeat; }
+.yds_xtu a .xtu3 { background: url(http://www.coracle.com/images/c_3.jpg) no-repeat; }
+.yds_xtu a .xtu4 { background: url(http://www.coracle.com/images/c_4.jpg) no-repeat; }
+.yds_xtu a .xtu5 { background: url(http://www.coracle.com/images/c_5.jpg) no-repeat; }
+.yds_xtu a:hover .xtu1 { background: url(http://www.coracle.com/images/c_1_h.jpg) no-repeat; }
+.yds_xtu a.hover .xtu1 { background: url(http://www.coracle.com/images/c_1_h.jpg) no-repeat; }
+.yds_xtu a:hover .xtu2 { background: url(http://www.coracle.com/images/c_2_h.jpg) no-repeat; }
+.yds_xtu a.hover .xtu2 { background: url(http://www.coracle.com/images/c_2_h.jpg) no-repeat; }
+.yds_xtu a:hover .xtu3 { background: url(http://www.coracle.com/images/c_3_h.jpg) no-repeat; }
+.yds_xtu a.hover .xtu3 { background: url(http://www.coracle.com/images/c_3_h.jpg) no-repeat; }
+.yds_xtu a:hover .xtu4 { background: url(http://www.coracle.com/images/c_4_h.jpg) no-repeat; }
+.yds_xtu a.hover .xtu4 { background: url(http://www.coracle.com/images/c_4_h.jpg) no-repeat; }
+.yds_xtu a:hover .xtu5 { background: url(http://www.coracle.com/images/c_5_h.jpg) no-repeat; }
+.yds_xtu a.hover .xtu5 { background: url(http://www.coracle.com/images/c_5_h.jpg) no-repeat; }
+.xiazai a { display: block; overflow: hidden; width: 200px; height: 50px; line-height: 50px; text-align: center; vertical-align: middle; background: #e30e0e; }
+.xiazai a .xtu6 { background: url(http://www.coracle.com/images/xz.png) no-repeat; display: block; height: 50x; font-size: 16px; color: #ffffff; padding-left: 15px; background-position: 25px 14px; }
+/*移动化内页第三部*/
+.yds_three { width: 100%; padding: 30px 0px; background: #f8f8f8; }
+.yds_three_left { float: left; width: 450px; margin-top: 5%; margin-left: 0px; transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; }
+.yds_three:hover .yds_three_left { margin-left: 30px; }
+.yds_three h1 { font-size: 20px solid; color: #555555; padding-bottom: 8px; }
+.yds_three p { font-size: 12px; color: #555555; line-height: 25px; }
+.yds_three_right { transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; margin-right: 0px; float: right; }
+.yds_three:hover .yds_three_right { margin-right: 30px; }
+.yds_four { width: 100%; padding: 30px 0px; background: #fff; }
+.yds_four_right { transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; float: left; margin-left: 0px; }
+.yds_four:hover .yds_four_right { margin-left: 30px; }
+ . {
+width:450px;
+float:right;
+margin-top:100px;
+margin-right:50px;
+}
+.yds_four h1 { font-size: 20px solid; color: #555555; padding-bottom: 8px; }
+.yds_four p { font-size: 12px; color: #555555; line-height: 25px; }
+.yds_four_left { width: 450px; float: right; margin-top: 5%; transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; }
+.yds_four:hover .yds_four_left { margin-right: 30px; }
+/*oracle产品*/
+.oracle_banner { height: 577px; background: url(http://www.coracle.com/images/orl_banner.jpg) no-repeat center; }
+.ora_first { padding: 30px 0px; overflow: hidden; background: #f8f8f8; }
+.ora_first li { width: 260px; float: left; text-align: center; overflow: hidden; padding: 35px 0px; margin-right: 115px; }
+.ora_first .r { margin-right: 0px; }
+.ora_first h5 { margin-bottom: 10px; }
+.ora_first h1 { font-size: 14px; color: #333333; padding-bottom: 5px; }
+.ora_first p { font-size: 12px; color: #555; }
+.ora_second { padding: 25px 0px; overflow: hidden; background: #fff; }
+.ora_second .r { margin-right: 0px; }
+.ora_second ul { margin: 30px 0px; overflow: hidden; }
+.ora_second li { float: left; margin-right: 15px; text-align: center; width: 200px; height: 250px; padding: 20px; background: #f8f8f8; }
+.ora_second h5 { margin: 20px 0px; overflow: hidden; }
+.ora_second h1 { font-size: 16px; color: #000000; padding-bottom: 8px; }
+.ora_second p { font-size: 12px; color: #555555; line-height: 22px; }
+.ora_three { padding: 40px 0px; overflow: hidden; background: #f8f8f8; }
+.ora_three_left { float: left; overflow: hidden; margin-right: 20px; }
+.ora_three_right { width: 490px; float: right; overflow: hidden; margin-top: 20px; }
+.zi_ys h1 { font-size: 16px; color: #444444; padding-bottom: 8px; text-transform: uppercase; }
+.ora_three_right h4 { margin-bottom: 5px; font-size: 12px; color: #555555; line-height: 24px; }
+.ora_three_right p { font-size: 12px; color: #555555; line-height: 24px; }
+.ora_three_right p:hover { color: #e20000; text-decoration: underline; }
+.zi_ys p { font-size: 12px; color: #555555; line-height: 24px; }
+.zi_ys h3 { margin-top: 40px; width: 100px; height: 30px; line-height: 30px; vertical-align: middle; text-align: center; border: 1px solid #555555; }
+.zi_ys h3 a { font-size: 12px; display: block; color: #555555; }
+.zi_ys h3:hover { background: #0381e2; border: 1px solid #0381e2; }
+.zi_ys h3:hover a { color: #fff; }
+.ora_four { padding: 40px 0px; overflow: hidden; background: #fff; }
+.ora_four_left { float: right; overflow: hidden; }
+.ora_four_right { float: left; width: 490px; overflow: hidden; margin-top: 20px; }
+/*oracle的solution*/
+.ora_five { background: #f8f8f8; padding: 30px 0px; overflow: hidden; }
+.ora_five ul { margin: 20px 0px; overflow: hidden; }
+.ora_five li { width: 324px; height: 144px; float: left; margin-right: 18px; margin-top: 20px; }
+.ora_five .r { margin-right: 0px; }
+.ora_five h2 { font-size: 16px; color: #333333; margin-left: 15px; margin-top: 15px; }
+.ora_five p { min-height: 20px; width: 150px; font-size: 10px; color: #666666; line-height: 18px; margin-left: 15px; font-family: Arial, Helvetica, sans-serif; }
+.ora_five h3 { margin-left: 15px; margin-top: 50px; }
+.ora_five h3 a { font-size: 12px; color: #666666; }
+.ora_five li:hover a { color: #0381e2; }
+.five_1 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_1.png) no-repeat; }
+.five_2 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_2.png) no-repeat; }
+.five_3 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_3.png) no-repeat; }
+.five_4 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_4.png) no-repeat; }
+.five_5 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_5.png) no-repeat; }
+.five_6 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_6.png) no-repeat; }
+.five_7 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_7.png) no-repeat; }
+.five_8 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_8.png) no-repeat; }
+.five_9 { width: 324px; height: 142px; border: 1px solid #e0e0e0; background: url(http://www.coracle.com/images/ora_9.png) no-repeat; }
+/*oracle内页*/
+.oracles_banner { height: 577px; background: url(http://www.coracle.com/images/orl_banner.jpg) no-repeat center; }
+.position { width: 1080px; overflow: hidden; margin: auto; margin: 20px 0px; padding-left: 25px; }
+.position h1 { float: left; font-size: 14px; vertical-align: middle; line-height: 35px; color: #555555; cursor: pointer; padding-left: 30px; background: url(http://www.coracle.com/images/x_logo_03.jpg) no-repeat left; }
+.position p { float: left; font-size: 14px; vertical-align: middle; line-height: 35px; color: #555555; cursor: pointer; }
+.viti a { color: #e20000; font-size: 14px; }
+.oras_tu h5 { padding-left: 20px; }
+.oras_tu h6 { padding-left: 20px; }
+.oras_zi { margin-bottom: 30px; overflow: hidden; }
+.oras_zi p { text-indent: 25px; padding: 10px 15px 0px 15px; line-height: 28px; font-size: 12px; color: #4c4c4c; }
+.oras_zi h1 { padding-top: 18px; font-size: 14px; color: #000; }
+.oras_zi h2 { padding: 10px 15px 15px 15px; line-height: 28px; font-size: 12px; color: #4c4c4c; }
+.oras_tu_hover { display: none; position: absolute; width: 300px; padding: 20px; background: #f5f5f5; margin-top: 130px; border-radius: 8px 8px; *margin-left:-280px;
+}
+.cases_ny{
+	background-color: #f5f5f4;
+}
+.oras_tu_hover h1 { height: 36px; line-height: 36px; vertical-align: middle; vertical-align: middle; background: url(http://www.coracle.com/images/dian_bj_32.jpg) repeat-x bottom; }
+.oras_tu_hover a { padding-left: 15px; text-align: left; font-size: 14px; color: #808080; display: block; background: url(http://www.coracle.com/images/hui_r_12.png) no-repeat right; }
+.oras_tu_hover h1:hover a { color: #e86f6f; text-decoration: underline; background: url(http://www.coracle.com/images/hong_r_15.png) no-repeat right; }
+.zy_solution li:hover .oras_tu_hover { display: block; }/*解决方案*/
+.solu_banner { height: 577px; background: url(http://www.coracle.com/images/solu_banner_02.jpg) no-repeat center; }
+.infor_zi { padding-top: 20px; padding-bottom: 25px; margin: 30px 0px; overflow: hidden; padding:; }
+.infor_zi h5 { padding-bottom: 10px; border-bottom: 1px solid #f5f5f5; }
+/*滚动部分*/
+.pro_tuxx { width: 670px; margin: auto; position: relative; margin-top: 5px; overflow: hidden; height: 50px; }
+.btnxx { z-index: 11; }
+.btnxx .btn_l { width: 40px; height: 40px; position: absolute; z-index: 2; bottom: 0px; left: 0px; background: url(http://www.coracle.com/images/hui_l.jpg) no-repeat; }
+.btnxx .btn_l:hover { background: url(http://www.coracle.com/images/hong_l.jpg) no-repeat; }
+.btnxx .btn_r { width: 40px; height: 40px; position: absolute; right: 0; z-index: 1; bottom: 0px; background: url(http://www.coracle.com/images/hui_r.jpg) no-repeat; }
+.btnxx .btn_r:hover { background: url(http://www.coracle.com/images/hong_r.jpg) no-repeat; }
+.sorllMenuxx { width: 565px; margin: auto; overflow: hidden; position: relative; margin-top: 10px; }
+.sorllMenuxx ul li { overflow: hidden; float: left; width: 565px; }
+.sorllMenuxx h1 { padding: 0px 17px; border: 1px solid #555; font-size: 18px; color: #000; height: 38; line-height: 38px; vertical-align: middle; }
+.sorllMenuxx h1:hover { border: 1px solid #e20000; background: #e20000; color: #fff; }
+.sorllMenuxx ul li ol li { float: left; margin-right: 15px; width: auto; }
+.sorllMenuxx ul li ol li.r { margin-right: 0px; }
+.pro_tuxxs { width: 500px; margin: auto; position: relative; margin-top: 5px; overflow: hidden; height: 50px; }
+.sorllMenuxxs { width: 405px; margin: auto; overflow: hidden; position: relative; margin-top: 10px; }
+.sorllMenuxxs ul li { overflow: hidden; float: left; width: 405px; }
+.sorllMenuxxs h1 { padding: 0px 28px; border: 1px solid #555; font-size: 18px; color: #000; height: 38; line-height: 38px; vertical-align: middle; }
+.sorllMenuxxs h1:hover { border: 1px solid #e20000; background: #e20000; color: #fff; }
+.sorllMenuxxs ul li ol li { float: left; margin-right: 15px; width: auto; }
+.sorllMenuxxs ul li ol li.r { margin-right: 0px; }
+.infor_ny1 { height: 340px; margin: 35px 0px 0px 0px; overflow: hidden; }
+.infor_ny1_left { float: left; width: 500px; margin-right: 10px; margin-top: 60px; }
+.infor_ny1_left p { font-size: 14px; color: #555555; line-height: 24px; padding-bottom: 10px; }
+.infor_ny1_left h1 { font-size: 16px; color: #e20000; padding-bottom: 8px; }
+.infor_ny1 h6 { float: left; }
+.infor_ny2 { height: 540px; margin: 35px 0px; overflow: hidden; }
+.infor_ny2_left { float: right; width: 460px; padding: 0px 20px; margin-right: 10px; margin-top: 60px; }
+.infor_ny2_left h5 { font-size: 20px; color: red; }
+.infor_ny2_left p { font-size: 14px; color: #555555; line-height: 24px; padding-bottom: 10px; }
+.infor_ny2 h6 { float: right; }
+.infor_ny2_left h1 { font-size: 16px; color: #e20000; padding-bottom: 8px; }
+.i_left { overflow: hidden; margin-top: 15px; width: 160px; float: left; }
+.i_right { overflow: hidden; margin-top: 15px; width: 300px; float: right; }
+.ydh_solu h4 { padding-bottom: 8px; border-bottom: 1px solid #f5f5f5; }
+.ydh_top { margin-top: 10px; margin-bottom: 45px; overflow: hidden; }
+.ydh_top ul { margin-top: 25px; margin-bottom: 35px; overflow: hidden; }
+.ydh_top li { height: 131px; width: 340px; float: left; background: #F4F4F4; margin-right: 25px; margin-bottom: 25px; }
+.ydh_top ul .r { margin-right: 0px; }
+.ydh_top li:hover { background: #e64d3d; }
+.ydh_top h5 {
+*margin-top:-4px; margin-top: -2px; }
+.ydh_top h6 { margin: 25px 0px 10px 0px; }
+.ydh_top ul { margin: 20px 0px; overflow: hidden; margin-bottom: 30px; }
+.ydh_top ul .r { margin-right: 0px; }
+.ydh_top li:hover h5 { display: none; }
+.ydh_top li:hover h6 { display: block; }
+.ydh_top li h5 { float: left; display: block; margin-top: 35px; margin-left: 15px; }
+.ydh_top li h6 { display: none; float: left; margin-left: 15px; margin-top: 35px; }
+.zy_solution_zi { margin-left: 25px; float: left; margin-top: 32px; *margin-top:20px;
+}
+.ydh_top h2 { padding: 5px 0px; }
+.ydh_top h2 a { font-size: 18px; color: #333; line-height: 20px; }
+.ydh_top h2 span { font-size: 12px; color: #555555; }
+.ydh_top p { width: 50px; height: 2px; background: #333333; *margin-top:10px;
+}
+.ydh_top li:hover a { color: #fff; }
+.ydh_top li:hover span { color: #fff; }
+.ydh_top li:hover p { background: #fff; }/*新闻*/
+.new_banner { height: 577px; background: url(http://www.coracle.com/images/new_banner_01.jpg) no-repeat center; }
+.new_ny { padding-top: 55px; overflow: hidden; }
+.new_ny ul { overflow: hidden; border-top: 1px solid #f5f5f5; }
+.new_ny li { height: 155px; margin-top: 25px; border-bottom: 1px dashed #dcdcdc; }
+.new_ny li a { cursor: pointer; }
+.new_ny li h6 { float: left; width: 208px; margin-right: 20px; }
+.new_right { float: left; width: 850px; overflow: hidden; }
+.new_right h1 { font-size: 18px; color: #666; }
+.new_right h4 { font-size: 12px; color: #666; margin: 5px 0px; }
+.new_right h2 { font-size: 12px; color: #666; line-height: 24px; }
+.pagediv { padding-left: 355px; overflow: hidden; line-height: 30px; vertical-align: middle; text-align: center; padding-top: 30px; }
+.pagediv li { padding: 0px 10px; height: 30px; display: block; float: left; margin-left: 8px; font-size: 12px; color: #666666; background: #efefef; }
+.pagediv li:hover { color: #e20000; }
+.pagediv .s, .pagediv .x { width: 56px; }
+.pagediv .f, .pagediv .n { width: 43px; }
+/*新闻*/
+.news_ny { line-height: 36px; margin: 15px 0px; overflow: hidden; }
+.news_ny h1 { text-align: center; }
+.news_ny img { margin-right: 15px; }
+.news_ny h1 { font-size: 18px; color: #666666; font-weight: bold; height: 30px; }
+.news_tzi { margin-top: 20px; height: 25px; overflow: hidden; border-bottom: 1px dashed #b8b8b8; }
+.news_tzi p { font-size: 12px; color: #aaaaaa; float: left; }
+.news_tzi h2 { font-size: 12px; color: #aaaaaa; float: right; }
+.news_ny h6 { margin: 35px 0px; }
+.news_ny h3 { margin-bottom: 20px; text-indent: 25px; text-align: left; font-size: 12px; color: #666666; line-height: 22px; }
+.tiao, .n_right .intro .tiao { width: 1080px; height: 30px; border: 1px dotted #dcdcdc; border-right: none; border-left: none; background: #fcfcfc; text-align: center; line-height: 33px; margin-top: 1cm; }
+.tiao a, .n_right .intro .tiao a { font-size: 12px; color: #666666; font-weight: bold; }
+.related_news { text-align: left; width: 1080px; height: 150px; padding-top: 50px; }
+.xgxw { padding-bottom: 10px; border-bottom: 1px #e2e2e2 dashed; }
+.xgxw p { font-size: 14px; color: #666666; font-weight: bold; }
+.list1 { width: 270px; float: left; margin-top: 8px; padding-right: 105px; }
+.list1 li { height: 35px; line-height: 35px; vertical-align: middle; text-align: center; border: none; border-bottom: 1px solid #dcdcdc; }
+.related_news .r { padding-right: 0px; }
+.list1 li:hover a { color: #003b8b; }
+/*关于我们*/
+.about_banner { height: 577px; background: url(http://www.coracle.com/images/about_banner_02.jpg) no-repeat center; }
+.about_xz { width: 484px; padding: 20px 0; margin: auto; overflow: hidden; margin-bottom: 20px; }
+.about_xz li { float: left; margin-left: 8px; line-height: 38px; vertical-align: middle; text-align: center; width: 84px; height: 38px; border: 1px solid #555555; }
+.about_xz li p { font-size: 18px; color: #000; }
+.about_xz li.thisclass { background: #e20000; border: 1px solid #e20000; }
+.about_xz li p a { color: #fff; font-size: 18px; }
+.about_zi { padding: 10px 0px; overflow: hidden; border-top: 2px solid #f5f5f5; }
+.about_zi1 { height: 440px; overflow: hidden; margin-top: 25px; margin-bottom: 15px; }
+.about_zi1 h6 { float: left; margin-right: 20px; }
+.about_zi1 p { margin-bottom: 20px; text-indent: 30px; font-size: 14px; color: #666; }
+.about_zi h2 { margin-top: 15px; float: left; margin-right: 27px; }
+.about_zi ul .r { margin-right: 0px; }
+.about_top1 { width: 1080px; padding-top: 25px; overflow: hidden; }
+.about_top1 h6 { height: 86px; }
+.about_top1 li { width: 210px; margin: 20px 0; float: left; margin-right: 60px; text-align: center; }
+.about_top1 li p { font-size: 12px; color: #494949; padding-top: 15px; }
+.about_top1 li a { font-size: 18px; color: #e20000; }
+.anout_top2 { margin-top: 30px; overflow: hidden; }
+.about_top2_zi { height: 388px; background: url(http://www.coracle.com/images/about_d1_10.jpg) no-repeat left; }
+.about_top3_zi { height: 525px; background: url(http://www.coracle.com/images/about_d2_14.jpg) no-repeat right; }
+.jianjie { width: 200px; float: right; margin-top: 100px; margin-right: 200px; }
+.jianjie h1 { font-size: 48px; color: #e20000; }
+.jianjie p { font-size: 15px; color: #555555; }
+.jianjie1 { width: 245px; float: left; margin-top: 150px; margin-left: 150px; }
+.jianjie1 h2 { font-size: 14px; color: #666; }
+.jianjie1 a { font-size: 30px; color: #e20000; }
+.about_zi_ul ul { margin: 25px 75px; overflow: hidden; }
+.about_zi_ul ul .r { margin-right: 0px; }
+.about_zi_ul li { margin-right: 120px; text-align: center; width: 230px; float: left; }
+.about_zi p { color: #666; margin-left: 6px; margin-top: 15px; }
+.about_zi2 { margin: 10px; overflow: hidden; }
+.about_zi2 .r { padding-right: 0px; }
+.about_left { float: left; padding-right: 30px; width: 500px; margin: 20px 0; overflow: hidden; height: 203px; }
+.about_left h6 { height: 203px; float: left; margin: 0px 15px; }
+.about_left h3 { margin-top: 15px; font-size: 20px; color: #333333; }
+.about_left p { line-height: 22px; font-size: 14px; color: #333; margin-top: 5px; }
+.about_zi3 a p { font-size: 16px; color: #6e6e6e; float: left; margin-left: 93px; margin-right: 15px; cursor: pointer; }
+.about_zi3 a:hover p { color: #e20000; text-decoration: underline; }
+.about_zi3 a.hover p { color: #e20000; text-decoration: underline; }
+.in_lei { width: 1080px; overflow: hidden; margin-left: 40px; }
+.about_zi3 ol { margin-top: 15px; overflow: hidden; }
+.about_zi3 li { text-align: center; float: left; width: 262px; margin-right: 10px; overflow: hidden; }
+.about_zi3 p { font-size: 12px; color: #6e6e6e; }
+.about_zi3 ol .r { margin-right: 0px; }
+.honor ul .r { margin-right: 0px; }
+.honor li { margin-top: 20px; overflow: hidden; float: left; margin-right: 25px; }
+.honor li p { font-size: 14px; color: #555555; }
+.honor img { border: 3px solid #cccccc; }
+.con_left { margin: 25px 0px; width: 540px; float: left; }
+.con_left h1 { font-size: 22px; color: #333333; }
+.con_left h2 { height: 28px; width: 535px; overflow: hidden; background: url(http://www.coracle.com/images/con_1.jpg) no-repeat left; padding-left: 90px; font-size: 22px; color: #d90211; margin-bottom: -18px; }
+.con_left h3 { margin-top: 40px; height: 28px; line-height: 28px; vertical-align: middle; width: 535px; overflow: hidden; background: url(http://www.coracle.com/images/con_2.jpg) no-repeat left; padding-left: 90px; font-size: 14px; color: #727171; }
+.con_left h4 { margin-top: 20px; height: 28px; line-height: 28px; vertical-align: middle; width: 535px; overflow: hidden; background: url(http://www.coracle.com/images/con_3.jpg) no-repeat left; padding-left: 90px; font-size: 14px; color: #727171; }
+.con_left h5 { border: none; margin-top: 15px; height: 28px; line-height: 28px; vertical-align: middle; width: 535px; overflow: hidden; background: url(http://www.coracle.com/images/con_4.jpg) no-repeat left; padding-left: 90px; font-size: 14px; color: #727171; }
+.con_left h6 { margin-top: 15px; height: 28px; line-height: 28px; vertical-align: middle; width: 535px; overflow: hidden; background: url(http://www.coracle.com/images/con_5.jpg) no-repeat left; padding-left: 90px; font-size: 14px; color: #727171; }
+/*加入我们*/
+.join_banner { height: 657px; background: url(http://www.coracle.com/images/join_banner.jpg) no-repeat center; }
+.join_top { height: 273px; background: url(http://www.coracle.com/images/join_bj.jpg) no-repeat center; }
+.join_zi { width: 400px; float: right; margin-right: 100px; margin-top: 50px; }
+.join_zi h1 { font-size: 28px; color: #666666; }
+.join_zi p { font-size: 14px; color: #848484; margin-top: 5px; line-height: 22px; }
+.in_leis { margin-top: 20px; margin-left: 140px; }
+.in_leis a { margin-right: 25px; line-height: 50px; vertical-align: middle; text-align: center; float: left; display: block; width: 155px; height: 50px; font-size: 18px; color: #e20000; border-radius: 8px 8px; border: 1px solid #e20000; }
+.in_leis a:hover { background: #e20000; color: #fff; }
+.in_leis a.hover { background: #e20000; color: #fff; }
+.in_conts ul { width: 1080px; margin-top: 100px; margin-bottom: 20px; overflow: hidden; }
+.in_conts li { width: 1080px; height: 50px; overflow: hidden; line-height: 50px; vertical-align: middle; background: url(http://www.coracle.com/images/li_bj.jpg) repeat-x bottom; }
+.in_conts li h1 { width: 180px; float: left; font-size: 16px; color: #333333; }
+.in_conts li h4 { width: 220px; float: left; font-size: 16px; color: #333333; }
+.in_conts li p { margin-top: 0px; font-size: 16px; color: #333333; }
+.his_ny { overflow: hidden; margin-bottom: 50px; }
+/*成功案例*/
+.dis_banner { height: 577px; background: url(http://www.coracle.com/images/cg_banner_01.jpg) no-repeat center; }
+.display ul { width: 1080px; overflow: hidden; }
+.display li { margin: 35px 25px 50px 90px; float: left; overflow: hidden; }
+.dis_cus { width: 1080px; overflow: hidden; }
+.dis_cus ul .r { margin-right: 0px; }
+.dis_cus li { float: left; margin-right: 8px; margin-bottom: 10px; }
+/*成功案例详情*/
+.displays_ny { overflow: hidden; margin-top: 20px; padding-bottom: 35px; }
+.dis_top { text-align: center; }
+.dis_top h1 { font-size: 24px; color: #555555; }
+.dis_top p { font-size: 12px; margin-top: 10px; color: #999999; }
+.dis_zi { margin-top: 35px; padding: 20px 0px; overflow: hidden; background: #f5f5f5; }
+.dis_zi_left { width: 640px; float: left; }
+.dis_zi_left h1 { font-size: 18px; color: #e20000; margin-bottom: 10px; }
+.dis_zi_left p { font-size: 14px; color: #555555; margin-bottom: 30px; }
+.dis_zi_right { float: left; margin-left: 130px; }
+.dis_zi_right img { width: 261px; height: 140px; margin-top: 38px; }
+.dis_three { padding: 20px 0; overflow: hidden; }
+.dis_three_ny { margin-top: 15px; overflow: hidden; }
+.dis_three_ny h5 { float: left; margin-top: 40px; margin-left: 80px; }
+.dis_three_zi { width: 530px; float: left; margin-top: 50px; background: url(http://www.coracle.com/images/syh_18.jpg) no-repeat; }
+.dis_three_zi p { width: 350px; margin-top: 20px; margin-left: 80px; font-size: 14px; color: #555555; }
+.dis_three_zi h2 { float: right; margin-right: 100px; margin-top: 50px; }
+.dis_three_zi h2 { font-size: 20px; color: #cccccc; }
+.dis_three_zi h2 a { font-size: 12px; color: #cccccc; }
+.dis_four { padding-top: 20px; padding-bottom: 35px; margin-top: 35px; overflow: hidden; background: #f5f5f5; }
+.dis_four h5 { margin-bottom: 15px; }
+.dis_four h3 { margin-top: 10px; font-size: 16px; color: #555555; padding-left: 25px; background: url(http://www.coracle.com/images/cgs_03.jpg) no-repeat left; }
+.dis_four_ny { float: left; margin-top: 80px; }
+.dis_second { padding: 20px 0; overflow: hidden; background: #fff; }
+.dis_second_ny { margin-top: 15px; overflow: hidden; }
+.dis_second_ny h5 { float: left; }
+.dis_second_zi { float: left; width: 400px; overflow: hidden; margin-top: 20px; margin-left: 35px; }
+.dis_second_zi p a { font-size: 26px; color: #e6bf0a; font-weight: bold; margin-right: 10px; }
+.dis_second_zi h3 a { font-size: 26px; color: #01a0fc; font-weight: bold; margin-right: 10px; }
+.dis_second_zi h4 a { font-size: 26px; color: #85dbfd; font-weight: bold; margin-right: 10px; }
+.dis_second_zi p { overflow: hidden; font-size: 18px; color: 555555; height: 30px; line-height: 30px; vertical-align: middle; }
+.dis_second_zi h4 { overflow: hidden; font-size: 18px; color: 555555; height: 30px; line-height: 30px; vertical-align: middle; }
+.dis_second_zi h3 { overflow: hidden; font-size: 18px; color: 555555; height: 30px; line-height: 30px; vertical-align: middle; }
+.dis_second_zi h2 { font-size: 14px; color: #999999; line-height: 22px; margin-top: 5px; }
+.biaoti { font-size: 20px; color: red; margin-left: 450px; margin-right: 450px; text-align: center; }
+.biaoti h5 { padding-bottom: 10px; border-bottom: 1px solid #f5f5f5; }
+.neirong { text-align: justify; margin-left: 150px; margin-right: 150px; font-family: Microsoft YaHei; color: #555; font-size: 14px; margin-bottom: 40px; }
+.youshi { text-align: left; font-family: Microsoft YaHei; color: #555; font-size: 14px }
+.fristcss { text-align: left; font-size: 23px; color: red; font-family: Microsoft YaHei; }
+.fristcss h5 { padding-bottom: 10px; border-bottom: 1px solid #f5f5f5; margin-right: 10px; color: red; }
+#prev { cursor: pointer; display: block; position: absolute; top: 45%; left: 2%; }
+#next { cursor: pointer; display: block; position: absolute; top: 45%; margin-left: 83%; }
+#fristnext { text-align: center; position: relative; margin-top: -15px; }
+
+.login-btn-d,.login-btn-d:hover{
+		height: 30px;
+		border-radius: 3px;
+		background: #2095ee;
+		color: #FFF;
+		padding: 5px 30px;
+}
+.login-btn-s,.login-btn-s:hover{
+		height: 30px;
+		border-radius: 3px;
+		background: #999;
+		color: #FFF;
+		margin-left: -20px;
+		padding: 5px 30px;
+}
+.home_r{
+	float: right;
+}
+
+
+	/*内容二*/
+.pro_hui{ background: #f8f8f8; overflow: hidden;}
+  .product_new{ clear: both; padding: 40px 0;}
+.product_new dl{ float: left; width: 218px; border: 1px solid #dedede; height: 260px; margin: 2px 25px 0 0; cursor: pointer; background: #fff;}
+.product_new dl.last{ margin-right: 0;}
+.product_new dl dt{ text-align:  center; padding: 5px 0;}
+.product_new dl dd{text-align:  center;}
+.product_new dl dd h2{ font-size: 20px; oolor:#000; line-height: 28px;}
+.product_new dl dd p{ color: #888; font-size: 14px; line-height: 26px;}
+.product_new dl:hover{border:1px solid #1577e4; -webkit-box-shadow:  1px 2px 1px 0 #ccc; -moz-box-shadow:  1px 2px 1px 0 #ccc; box-shadow:  1px 1px 2px 0 #ccc; margin-top:0;}
+.product_new dl:hover  dd a.pro_btn{border:none; background: #1577e4; color:#fff;}
+.product_new dl dd a.pro_btn{ border: 1px solid #1577e4; color:#1577e4; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; padding: 5px 0; margin: 10px auto; width: 80px; text-align: center; display: block;}
+a.pro_links{ clear: both; float: right; color: #1577e4; padding: 20px 0; font-size: 14px;}
+.solution_page{ clear: both; overflow: hidden;}
+.main h1{ font-size: 24px; color: #333; padding: 40px 0 0px 0;}
+.advantage_l{  width: 1000px; position: relative; height: 360px; padding:0 0 0 200px;}
+.advantage_l .hd{ position: absolute; left: 0; top:0; width: 190px; padding: 0; background: #fafafa;border-bottom: 1px solid #fafafa; }
+.advantage_l .hd ul li a{ width: 149px; display: block; color: #666; text-align: right; font-size: 18px; line-height: 73px; height: 73px;  padding: 0 20px;}
+.advantage_l .hd ul li.on{ background: url("img/tab_bgr.png") no-repeat right center;}
+.advantage_l .hd ul li.on a{ color: #1171dd; border:none ;}
+.advantage_l .hd ul li a:hover{color: #1171dd;}
+.advantage_l .bd ul{ height: 370px;}
+.advantage_l .bd ul li{ _display: inline; overflow: hidden; width: 1000px; height: 370px; float: left; display: block;}
+.advantage_l .bd ul li .pro_slu{ clear: both;  overflow: hidden;-webkit-text-overflow : clip | ellipsis 
+}
+.advantage_l .bd ul li .pro_slu dl dt{ float: left; width:340px; padding: 0 0 0 20px; }
+.advantage_l .bd ul li .pro_slu dl dd{ float: left; width:470px; padding: 0 0 0 30px; }
+.advantage_l .bd ul li .pro_slu dl dd h2{ font-size: 18px; color:#333; padding: 10px 0;}
+.advantage_l .bd ul li .pro_slu dl dd p{ font-size: 14px; color:#777; line-height: 23px;}
+.advantage_l .bd ul li .pro_slu dl dd a.pro_sl_infor{border: 1px solid #1577e4; color:#1577e4; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; padding: 5px 0; margin: 15px 0 0 0; width: 80px; text-align: center; display: block; position: absolute;right:0;top:10px;}
+.advantage_l .bd ul li .pro_slu dl dd a.pro_sl_infor:hover{border:none; background: #1577e4; color:#fff;}
+.advantage_l .bd ul li .advantage_r{ clear: both; padding: 10px 0 0 30px;}
+.advantage_l .bd ul li .advantage_r h2{ background: url("img/exm_bg.png") repeat-x left center; width:1000px; clear: both; height:35px; line-height: 35px;}
+.advantage_l .bd ul li .advantage_r h2 span{ font-size: 16px; color: #333; background: #fff; display: block; float: left; padding: 0 10px 0 0;}
+.advantage_l .bd ul li .advantage_r .example{ clear: both; border:1px solid #e2e2e2; background: #fafafa; height: 90px; margin: 10px 0;}
+.advantage_l .bd ul li .advantage_r .example span{ float: left; width: 160px; border-right:1px dashed #e2e2e2; text-align: center;height: 76px; padding: 7px 0; cursor: default;}
+.advantage_l .bd ul li .advantage_r .example span.last{ border:none;}
+.advantage_r .example p{ line-height: 75px; padding: 0 0 0 20px;;}
+.advantage_r .example span i{width: 125px;height: 75px;display: block;margin: 0 auto;background: #fff url("img/share_pic.png")}.example span i.share_02{background-position: -126px 0px}.example span i.share_03{background-position: -255px 0px}.example span i.share_04{background-position: -382px 0px}.example span i.share_05{background-position: -509px 0px}.example span i.share_06{background-position: -636px 0px}.example span i.share_11{background-position: 0px -76px}.example span i.share_12{background-position: -126px -76px}.example span i.share_13{background-position: -255px -76px}.example span i.share_14{background-position: -382px -76px}.example span i.share_15{background-position: -509px -76px}.example span i.share_16{background-position: -636px -76px}.example span i.share_21{background-position: 0px -153px}.example span i.share_22{background-position: -126px -153px}.example span i.share_23{background-position: -255px -153px}.example span i.share_24{background-position: -382px -153px}.example span i.share_25{background-position: -509px -153px}.example span i.share_26{background-position: -636px -153px}.example span i.share_31{background-position: 0px -230px}.example span i.share_32{background-position: -126px -230px}.example span i.share_33{background-position: -255px -230px}.example span i.share_34{background-position: -382px -230px}.example span i.share_35{background-position: -509px -230px}.example span i.share_36{background-position: -636px -230px}.example span i.share_41{background-position: 0px -307px}.example span i.share_42{background-position: -126px -307px}.example span i.share_43{background-position: -255px -307px}.example span i.share_44{background-position: -382px -307px}.example span i.share_45{background-position: -509px -307px}.example span i.share_46{background-position: -636px -307px}.example span i.share_51{background-position: 0px -384px}.example span i.share_52{background-position: -126px -384px}.example span i.share_53{background-position: -255px -384px}.example span i.share_54{background-position: -382px -384px}.example span i.share_55{background-position: -509px -384px}.example span i.share_56{background-position: -636px -384px}
+.news_con{ clear: both;padding:0 0 40px 0; overflow: hidden;}
+.news_type { padding: 10px 0; }
+.news_type ul { float: left; width: 360px; margin:0 60px 0 0;}
+.news_type ul.last{ margin:0;}
+.news_type ul li { color: #999; line-height: 26px; font-size: 14px; min-height:24px; cursor:pointer; background: #f8f8f8;}
+.news_type ul li img{ padding:0 0 10px 0;}
+.news_type ul li:hover h2 a,.news_type ul li:hover p,.news_type ul li:hover h2 span{ color:#3f7dd5;}
+.news_type ul li h2{ text-align: center;}
+.news_type ul li h2 img{ padding: 15px 0;}
+.news_type ul li h2 p.news_title{ background: #1577e4; font-size:16px; color:#fff; text-align: center; height: 35px; line-height: 35px;; }
+.news_type ul li .news_infor{ width: 320px; padding: 10px 20px;}
+.news_type ul li .news_infor dl dd{ font-size: 14px;}
+.news_type ul li .news_infor dl dd a { font-size: 14px; color: #666; float: left;overflow: hidden; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; width:272px; }
+.news_type ul li .news_infor dl dd span.news_icon{ color: #999; padding:0 10px 0 0; float:left;}
+.coop_type{ clear: both; padding: 30px 0; overflow: hidden;}
+.coop_type ul li{ float: left; padding: 0 33px 0 0;}
+.coop_type ul li.last{padding:0;}
+.tm_title,.tm{font-size: 10px;padding: 0 2px 0 0;vertical-align: super;}
+.tm{font-size: 7px}
+.pro_advantage{
+  margin-top: 50px;
+}
+
+/*底部样式*/
+.foot_about{ background:url(../images/adbg3.jpg) center center no-repeat; padding: 30px 0; overflow: hidden; height: 500px;}
+.foot_infor{ float: left; width: 735px;}
+.foot_infor h1{ font-size: 22px; color: #fff; font-weight: 700; line-height: 30px;padding:0;}
+.foot_infor p{ font-size: 14px; color: #aecef1; padding: 15px 0; overflow: hidden; line-height: 24px;}
+.foot_infor a.foot_btn{ height: 32px;color: #fff; font-size: 14px; border:1px solid #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; line-height: 32px; display: block; width:130px; text-align: center; display: block; }
+.foot_share{ float: right;}
+.foot_share h1{ font-size: 22px; color: #fff; font-weight: 700; line-height: 30px;}
+.foot_share p{ color:#fff; font-size: 14px; padding: 0 0 10px 15px;}
+.foot_share dl dd{ float: left; width: 160px; text-align: center;}
+.foot_share dl dd p{ color: #aecef1; padding: 5px 0 0 0;}
+.foot_border{ width: 274px;border:1px solid #aecef1; border-right: none; height: 80px; margin: 15px 0;}
+.foot_share a{ border-right:1px solid #aecef1; display: block; float: left; width: 136px; text-align: center;height: 80px;}
+
+.index_1 {
+	width: 100%;
+	content: "";
+	display: block;
+	clear: both;
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+
+.foot_t {
+	display: block;
+	position: relative;
+}
+
+.foot_1 {
+    padding-bottom: 100px;
+	background-color: #016cc5;
+	display: block;
+}
+
+.foot_1_1 {
+	width: 1080px;
+	min-height: 200px;
+	padding: 40px 0;
+	margin: auto;
+}
+
+.foot_1_1_1 {
+	width: 970px;
+	float: left;
+}
+
+.foot_1_1_2 {
+	width: 0;
+	float: left;
+}
+
+.foot_bg {
+	background-image: url(../images/foot_bg.png);
+}
+
+.foot_1_1_1 dl {
+	width: 160px;
+	min-height: 125px;
+	margin-left: 25px;
+	float: left;
+}
+
+.foot_1_1_1 dl dt {
+	width:200px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+
+.foot_1_1_1 dl dt i.foot-1 {
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+	float: left;
+	background-position: -8px -12px;
+}
+
+.foot_1_1_1 dl dt i.foot-2 {
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+	float: left;
+	background-position: -59px -12px;
+}
+
+.foot_1_1_1 dl dt i.foot-3 {
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+	float: left;
+	background-position: -107px -13px;
+}
+
+.foot_1_1_1 dl dt i.foot-4 {
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+	float: left;
+	background-position: -157px -13px;
+}
+
+.foot_1_1_1 dl dt i.foot-5 {
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+	float: left;
+	background-position: -8px -62px;
+}
+
+.foot_1_1_1 dl dd {
+	padding-left: 55px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+.foot_1_1_1 dl dd a {
+	font-size: 14px;
+	color: #fff;
+}
+
+.foot_1_1_2_1 {
+	width: 235px;
+	padding: 0 25px;
+	border-left: 1px solid #559cd8;
+	min-height: 170px;
+	float: left;
+}
+
+.foot_1_1_2_1 h5 {
+	display: block;
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 3px;
+}
+
+.foot_1_1_2_1 h6 {
+	display: block;
+	font-weight: bold;
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 2px;
+	color: #fff;
+}
+
+.foot_1_1_2_1_1 {
+	width: 235px;
+	height: 110px;
+	float: left;
+}
+
+.foot_1_1_2_1_1_1 {
+	width: 100px;
+	height: 110px;
+	float: left;
+}
+
+.foot_1_1_2_1_1_2 {
+	width: 120px;
+	height: 115px;
+	background: url(../images/foot_1bg.png) 15px bottom no-repeat;
+	float: left;
+}
+
+.foot_1_1_2_1_1_1 dl dt {
+	width: 100px;
+	height: 130px;
+	float: left;
+	overflow: hidden;
+}
+
+.foot_1_1_2_1_1_1 dl dt img {
+	width: 100%;
+}
+
+.foot_1_1_2_1_1_1 dl dd {
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-top: 2px;
+	color: #fff;
+	font-size: 12px;
+}
+.foot_1_1_2_1_1_1 p{
+	text-align: center;
+	color:#fff;
+}
+
+.foot_2 {
+	background-color: #015ea9;
+	display: block;
+	height:100px;
+}
+
+.foot_2_1 {
+	width: 1080px;
+	margin: auto;
+	padding: 10px 0;
+	font-size: 14px;
+	color: #ffffff;
+	height: 80px;
+}
+
+.foot_2_1 span {
+	font-size: 14px;
+	color: #ffffff;
+	float: left;
+}
+
+.foot_2_1 span i {
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 2px;
+	margin-right: 3px;
+}
+
+.foot_2_1 span.dizhi {
+	margin-left: 180px;
+}
+
+.foot_2_1 span.dizhi i {
+	width: 16px;
+	height: 19px;
+	background-position: -65px -82px;
+}
+
+.foot_2_1 span.dizhi2 {
+	margin-left: 20px;
+}
+
+.foot_2_1 span.dizhi2 i {
+	width: 20px;
+	height: 15px;
+	background-position: -90px -88px;
+}
+
+.foot_2_1 span.dizhi3 {
+	margin-left: 20px;
+}
+
+.foot_2_1 span.dizhi3 i {
+	width: 21px;
+	height: 16px;
+	background-position: -118px -86px;
+}
+
+.foot_2_1 p {
+	float: left;
+	margin-left: 75px;
+	font-size: 14px;
+	color: #ffffff;
+	margin-top:10px;
+	line-height: 25px;
+	text-align: center;
+	width: 1080px;
+}
+/*.ab_3 {
+    background-image: url(../images/adbg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    text-align: center;
+    padding: 80px 10px;
+    margin-top: 100px;
+    overflow: hidden; 
+}*/
+.index_8{ text-align:center; min-height:460px; padding-bottom:30px; background: #FFFFFF; }
+
+.index_8 h2{ display:block; color:#444444;  font-size:40px;  font-weight:500; padding-top:35px;  text-align:center;}
+.index_8 h4{ display:block; font-weight:500;text-align:center; height:50px; margin-top: 15px; background:url(images/index_5_bg1.png) center 0 repeat-x; }
+
+.index_8_1{ display:block;  margin-top:50px; }
+
+.index_8_1 li{ width:245px; height:auto; padding:20px 20px; margin:0px 10px; text-align:center; float:left;  }
+
+.index_8_1 li i.yi{ width:245px; height:160px; display:inline-block; background-position:-200px -10px;  }
+.index_8_1 li i.er{ width:245px; height:160px; display:inline-block; background-position:-228px -170px;  }
+.index_8_1 li i.san{ width:245px; height:160px; display:inline-block; background-position:-8px -325px;  }
+.index_8_1 li i.si{ width:245px; height:160px; display:inline-block; background-position:-235px -330px;  }
+
+.index_8_1 li h1{ display:block; font-size:16px; margin-top:10px; font-weight:300; color:#444444;}
+.index_8_1 li h5{ display:block; font-size:14px; margin-top:25px;line-height:25px; font-weight:300;color:#999999;text-align: left;}
+
+.index_3_1lii{ background-image:url(../images/index_111.png); }
+.index_3_1i{display:block; text-align:center;}
+.index_3_1 li i{ height:60px; margin:3px auto; width:200px; background-position: 0px 0px; -webkit-transition: 0.5s; -moz-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
+.index_3_1 li i.er{  background-position: 0px -63px; }
+.index_3_1 li i.san{  background-position: 0px -128px; }
+.index_3_1 li i.si{ background-position: 0px -187px; }
+
+.index_3_1 li span{ font-size:14px; min-height:80px; color:#444444; line-height:22px; }
+.index_3_1 li a{ width:120px; text-decoration:none; height:32px; line-height:32px; margin:auto; margin-top:15px;  font-size:16px; color:#444444; background-color:#fff; border:1px solid #c9c9c9; border-radius:3px; -webkit-transition: 0.5s; -moz-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
+.index_3_1 li a:hover{  color:#fff; background-color:#444444; border:1px solid #444444; -webkit-transition: 0.5s; -moz-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
+
+
+/*右侧快捷方式*/
+#leftsead {
+    height: 143px;
+    position: fixed;
+    right: 0;
+    top: 258px;
+    width: 131px;
+    z-index: 999;
+}
+#leftsead li {
+    height: 60px;
+    width: 131px;
+}
+#leftsead li img {
+    float: right;
+}
+#leftsead li a {
+    display: block;
+    float: right;
+    height: 49px;
+    max-width: 131px;
+    min-width: 47px;
+}
+#leftsead li a .shows {
+    display: block;
+}
+#leftsead li a .hides {
+    cursor: pointer;
+    margin-right: -143px;
+}
+#leftsead li a.youhui .hides {
+    position: absolute;
+    right: 190px;
+    top: 150px;
+}
+
+
+/*  云营销*/
+ 
+    
+    .fa-btn {
+        margin-right: 6px;
+    }
+
+    .page_img_p{
+        width: 100%;
+        height: 600px;
+        background: url(../images/pic_01.png) center center no-repeat;
+        position: relative;
+    }
+    .page_cur{
+        width: 100%;
+        height: 170px;
+        background:rgba(0,0,0,0.3);
+        position: absolute;
+        left: 0;
+        top:50%;
+        margin-top: -85px;
+    }
+    img{
+        display: inline-block;
+    }
+    .page_img_p_1{
+        background: #0b98df;
+        width: 100%;
+        height: 600px;
+       
+        position: relative;
+    }
+    .p_1{
+        width: 100%;
+        height: 600px;
+        margin:0 auto;
+        text-align: center;
+        position: relative;
+    }
+.pic_4{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background: url(../images/pic_07.png) center center repeat;
+}
+.pic_3{
+    width: 100%;
+    height: 600px;
+    background: url(../images/pic_09.png) center center repeat;
+}
+.page_img_p  .main{
+    position: relative;
+}
+.page_img_font{
+    right:0;
+    top:50%;
+    margin-top: -30px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+}
+.page_img_font dt{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.page_img_font dd{
+   margin: 10px 0px;
+   font-size: 16px;
+}
+.page_img_p_2 .main{
+    position: relative;
+    margin:auto;
+}
+.page_img_p_2  .page_img_font_1{
+        float: left;
+      
+        text-align:left;
+        font-size: 25px;
+        font-family: "PingFang SC";
+        font-weight: 500px;
+        margin:12% 8%;
+    }
+.page_img_font_1 dt{
+        margin-bottom: 20px;
+}
+ .page_img_font_1 dd{
+        font-size: 16px;
+        margin-bottom: 10px;
+
+}
+
+.pic_3 .main  .page_img_font_2 {
+    color: #fff;
+    margin-top:26%;
+    text-align: center;
+}
+.pic_3 .main  .page_img_font_2  dt {
+    font-size: 28px;
+    font-weight: 400;
+}
+.pic_3 .main  .page_img_font_2 dd{
+    margin:10px 0;
+}
+
+.page_img_font_3{
+    float: right;
+    margin-top: 20%;
+}
+.page_img_font_3 dt{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.page_img_font_3 dd{
+    margin-bottom: 20px 0;
+}
+.pic_4 .main span{
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin-top: 25%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border:2px dashed #fff;
+}
+.Validform_checktip {
+    color: #999;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 8px;
+    overflow: hidden;
+}
+.Validform_right {
+    background: rgba(0, 0, 0, 0) url("images/right.png") no-repeat scroll left center;
+    color: #71b83d;
+    padding-left: 20px;
+}
+.Validform_wrong {
+    background: rgba(0, 0, 0, 0) url("images/error.png") no-repeat scroll left center;
+    color: red;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+.Validform_loading {
+    background: rgba(0, 0, 0, 0) url("images/onLoad.gif") no-repeat scroll left center;
+    padding-left: 20px;
+}
+.Validform_error {
+    background-color: #ffe7e7;
+}
+#Validform_msg {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    color: #7d8289;
+    display: none;
+    font: 12px/1.5 tahoma,arial,宋体,sans-serif;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 280px;
+    z-index: 99999;
+}
+#Validform_msg .iframe {
+    left: 0;
+    position: absolute;
+    top: -1px;
+    z-index: -1;
+}
+#Validform_msg .Validform_title {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #999, #666 100%) repeat scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+    position: relative;
+    text-align: left;
+}
+#Validform_msg a.Validform_close:link, #Validform_msg a.Validform_close:visited {
+    color: #fff;
+    line-height: 22px;
+    position: absolute;
+    right: 8px;
+    text-decoration: none;
+    top: 0;
+}
+#Validform_msg a.Validform_close:hover {
+    color: #ccc;
+}
+#Validform_msg .Validform_info {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #bbb #bbb;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 8px;
+    text-align: left;
+}
+

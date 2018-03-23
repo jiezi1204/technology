@@ -1,0 +1,53 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*公共CSS文件*/
+html { -webkit-text-size-adjust: none; overflow-y:scroll; background:#fff;}
+.flash,.ipadIndex{ background:#fff;}
+body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd{ margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,b,strong,i,s{ font-style:normal; text-decoration:none;}
+body, input, select, button, textarea{font-family:"Microsoft YaHei",Arial; font-size:15px; }
+.arial,.arial a{font-family:Arial;}
+ul,ol,li{ list-style:none;}
+img{ border:none;}
+.l,.fl{ float:left;}
+.r,.fr{ float:right;}
+.c,.clear{ clear:both; width:0; height:0; margin:0; padding:0; line-height:0; font-size:0;}
+a{ text-decoration:none;}
+.nosee{ display:none;}
+.lown{ z-index:-3; font-size:8px; font-family:Arial; color:#fff; position:absolute; top:0; left:0; height:500px; overflow:hidden;}
+.lown h2,.lown h3{ font-weight:normal; font-size:8px;}
+.fixed:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+.fixed { display: block; min-height: 1%; }
+*html .fixed { height: 1%; }
+/*案例展示页面CSS*/
+.listBox{ width:90%; margin:0 auto; padding-bottom:60px; text-align:center; background:#fff; min-height:900px;opacity: 0.2;filter:alpha(opacity=20); position:relative;}
+.cateImg{ text-align:center; width:960px; background:#fff; width:100%;}
+.cateImg img{ padding-top:50px; max-width:100%;}
+.cateImg .cateLogo img{ padding-top:5px; max-width:80%; margin:0 auto;}
+.catecomputer{width:54%; margin:0 auto; margin-top:50px; background:url(../../images/diannao.png) no-repeat center; height:856px;}
+.catecomputer img{ padding:35px 32px 0 35px; width:856px; height:477px;}
+.cateSay{ padding-top:120px; min-height:340px; width:100%;}
+.cateshouji{width:80%; margin:0 auto; margin-top:50px; background:url(../../imagesdiannao_wap.png) no-repeat center; height:856px;}
+.cateshouji img{ padding:126px 32px 0 35px; width:342px; height:602px;}
+.cateTxt .twoWay h3 {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+.cateLogo{ text-align:center; width:30%;}
+.cateTxt{ width:60%; text-align:left;}
+.cateSay a{ color:#d40d32;}
+.cateSay a:hover{ color:#b50b2b;}
+.FlWay{ width:90px; margin-bottom:8px; +margin-bottom:-10px; }
+.FrWay{ width:75%; margin-bottom:8px;  +margin-bottom:-10px; }
+.cateTxt h2{ color:#d1052f; font-size:36px; line-height:42px;}
+.cateTxt .twoWay{ padding:20px 0 35px 0; +padding-bottom:70px;}
+.cateTxt .twoWay h3{ color:#000; font-size:16px; line-height:24px;}
+.cateTxt p{ line-height:24px; font-size:14px; color:#7e7e7e; padding-bottom:25px;}
+
+
+
+
+
+
+
